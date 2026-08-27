@@ -1,0 +1,93 @@
+[
+  {
+    "id": "query-01",
+    "query": "¿Cuántos días de vacaciones me corresponden si llevo 1 año y medio en la empresa y cómo los pido?",
+    "expected_department": "hr",
+    "category": "vacations",
+    "description": "Consulta estándar de política de vacaciones y antigüedad"
+  },
+  {
+    "id": "query-02",
+    "query": "¿Qué cobertura médica tengo para mi familia y cómo pido reintegro de lentes?",
+    "expected_department": "hr",
+    "category": "benefits",
+    "description": "Consulta sobre beneficios médicos, prepaga y reintegros de oftalmología"
+  },
+  {
+    "id": "query-03",
+    "query": "¿Cuánto tiempo dura la licencia por paternidad y puedo fraccionarla?",
+    "expected_department": "hr",
+    "category": "leaves",
+    "description": "Consulta sobre licencia parental / paternidad y fraccionamiento"
+  },
+  {
+    "id": "query-04",
+    "query": "¿Cuál es el bonus por referir a un ingeniero senior y cuándo se cobra?",
+    "expected_department": "hr",
+    "category": "referrals",
+    "description": "Consulta sobre el programa de referidos y montos"
+  },
+  {
+    "id": "query-05",
+    "query": "¿Cómo configuro la VPN en mi laptop con Linux Ubuntu?",
+    "expected_department": "tech",
+    "category": "vpn_network",
+    "description": "Instrucciones técnicas de conexión VPN en Linux"
+  },
+  {
+    "id": "query-06",
+    "query": "¿Cada cuánto tiempo me renuevan la laptop y qué modelo me corresponde como desarrollador?",
+    "expected_department": "tech",
+    "category": "hardware",
+    "description": "Política de refresh de hardware y tiers de equipos"
+  },
+  {
+    "id": "query-07",
+    "query": "Perdí mi teléfono y no puedo recibir el código de Okta Verify para entrar a los sistemas, ¿qué hago?",
+    "expected_department": "tech",
+    "category": "security_mfa",
+    "description": "Incidente crítico de MFA/2FA y soporte de emergencia"
+  },
+  {
+    "id": "query-08",
+    "query": "¿Cuál es el SLA de respuesta de IT si se cae un servidor en producción?",
+    "expected_department": "tech",
+    "category": "incident_sla",
+    "description": "Tiempos de SLA para incidentes P1 / Blocker"
+  },
+  {
+    "id": "query-09",
+    "query": "¿Cuál es el tope diario de viáticos para comida en un viaje nacional y hasta qué fecha puedo rendir?",
+    "expected_department": "finance",
+    "category": "expenses",
+    "description": "Límites de per diem y fecha de corte de rendiciones"
+  },
+  {
+    "id": "query-10",
+    "query": "¿Qué necesito para que me aprueben la compra de una licencia de software de ,500 USD?",
+    "expected_department": "finance",
+    "category": "procurement",
+    "description": "Umbrales de aprobación de compras de software SaaS y cotizaciones"
+  },
+  {
+    "id": "query-11",
+    "query": "¿Hasta qué día del mes puedo cargar deducciones impositivas para la liquidación de sueldo?",
+    "expected_department": "finance",
+    "category": "payroll_taxes",
+    "description": "Fechas de corte de nómina y retenciones fiscales"
+  },
+  {
+    "id": "query-12",
+    "query": "¿Puedo comprar pasajes en clase ejecutiva para una conferencia en Europa?",
+    "expected_department": "finance",
+    "category": "travel_policy",
+    "description": "Políticas de vuelos de larga distancia y clases autorizadas"
+  },
+  {
+    "id": "query-13",
+    "query": "¿Cuál es la receta de pasta que sirven en el comedor los viernes?",
+    "expected_department": "fallback",
+    "category": "out_of_domain",
+    "description": "Caso borde / Out of Domain para evaluar el manejo de consultas no corporativas"
+  }
+]
