@@ -13,6 +13,6 @@ def load_documents_from_folder(folder_path: str) -> list:
 
 
 if __name__ == "__main__":
-    # Example usage:
+    """# Example usage:
     docs = load_documents_from_folder("data\\finance_docs")
-    print(docs[0].page_content)  # Print the content of the first document
+    print(docs[0].page_content)  # Print the content of the first document"""
