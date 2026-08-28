@@ -1,1 +1,15 @@
+# Environment variables
 .env
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector Database storage
+chroma_db/
+chroma_langchain_db/
